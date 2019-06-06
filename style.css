@@ -1,0 +1,322 @@
+* {
+  margin: 0px;
+  /* border: 1px black solid; */
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.image1 {
+  overflow: hidden;
+  width:300px;
+  height:300px;
+  /* margin-left: 20px;
+  margin-right: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  transform: skewY(-10deg);
+
+}
+
+.column1 {
+    height: 100%;
+    width: 20%;
+    position: relative;
+    -webkit-animation: column1anim 10s infinite  normal ease-out;
+    animation: column1anim 10s infinite  normal ease-out;
+    display: inline-block;
+    animation-direction: normal;
+}
+@-webkit-keyframes column1anim {
+    0% {
+        top: -1350px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+.image2 {
+  overflow: hidden;
+  width:300px;
+  height:300px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  transform: skewY(-10deg);
+
+}
+
+.column2 {
+    height: 100%;
+    width: 20%;
+    position: relative;
+    -webkit-animation: column2anim 10s infinite  normal ease-out;
+    animation: column2anim 10s infinite  normal ease-out;
+    display: inline-block;
+    animation-direction: reverse;
+}
+@-webkit-keyframes column2anim {
+  0% {
+      top: -1350px;
+  }
+  100% {
+      top: 10px;
+  }
+}
+.image3 {
+  overflow: hidden;
+  width:300px;
+  height:300px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  transform: skewY(-10deg);
+
+}
+
+.column3 {
+    height: 100%;
+    width: 20%;
+    position: relative;
+    -webkit-animation: column3anim 10s infinite  normal ease-out;
+    animation: column3anim 10s infinite  normal ease-out;
+    display: inline-block;
+    animation-direction: normal;
+}
+@-webkit-keyframes column3anim {
+  0% {
+      top: -1350px;
+  }
+  100% {
+      top: 10px;
+  }
+}
+.image4 {
+  overflow: hidden;
+  width:300px;
+  height:300px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  transform: skewY(-10deg);
+
+}
+
+.column4 {
+    height: 100%;
+    width: 20%;
+    position: relative;
+    -webkit-animation: column4anim 10s infinite  normal ease-out;
+    animation: column4anim 10s infinite  normal ease-out;
+    display: inline-block;
+    animation-direction: reverse;
+}
+@-webkit-keyframes column4anim {
+      0% {
+          top: -1350px;
+      }
+      100% {
+          top: 10px;
+      }
+}
+.image5 {
+  overflow: hidden;
+  width:300px;
+  height:300px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  transform: skewY(-10deg);
+
+}
+
+.column5 {
+    height: 100%;
+    width: 1%;
+    position: relative;
+    -webkit-animation: column5anim 10s infinite  normal ease-out;
+    animation: column5anim 10s infinite  normal ease-out;
+    display: inline-block;
+    animation-direction: normal;
+}
+@-webkit-keyframes column5anim {
+    0% {
+        top: -1350px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+    margin: 0px;
+    /* border: 1px black solid; */
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .image1 {
+    overflow: hidden;
+    width:150px;
+    height:150px;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    transform: skewY(-10deg);
+
+
+  }
+
+  .column1 {
+      height: 100%;
+      width: 20%;
+      position: relative;
+      -webkit-animation: column1anim 10s infinite  normal ease-out;
+      animation: column1anim 10s infinite  normal ease-out;
+      display: inline-block;
+      animation-direction: normal;
+  }
+  @-webkit-keyframes column1anim {
+    0% {
+        top: -300px;
+    }
+    100% {
+        top: 10px;
+    }
+  }
+  .image2 {
+    overflow: hidden;
+    width:150px;
+    height:150px;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    transform: skewY(-10deg);
+
+
+  }
+
+  .column2 {
+      height: 100%;
+      width: 20%;
+      position: relative;
+      -webkit-animation: column2anim 10s infinite  normal ease-out;
+      animation: column2anim 10s infinite  normal ease-out;
+      display: inline-block;
+      animation-direction: reverse;
+  }
+  @-webkit-keyframes column2anim {
+    0% {
+        top: -300px;
+    }
+    100% {
+        top: 10px;
+    }
+  }
+  .image3 {
+    overflow: hidden;
+    width:150px;
+    height:150px;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    transform: skewY(-10deg);
+
+
+  }
+
+  .column3 {
+      height: 100%;
+      width: 20%;
+      position: relative;
+      -webkit-animation: column3anim 10s infinite  normal ease-out;
+      animation: column3anim 10s infinite  normal ease-out;
+      display: inline-block;
+      animation-direction: normal;
+  }
+  @-webkit-keyframes column3anim {
+    0% {
+        top: -300px;
+    }
+    100% {
+        top: 10px;
+    }
+  }
+  .image4 {
+    overflow: hidden;
+    width:150px;
+    height:150px;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    transform: skewY(-10deg);
+
+
+  }
+
+  .column4 {
+      height: 100%;
+      width: 20%;
+      position: relative;
+      -webkit-animation: column4anim 10s infinite  normal ease-out;
+      animation: column4anim 10s infinite  normal ease-out;
+      display: inline-block;
+      animation-direction: reverse;
+  }
+  @-webkit-keyframes column4anim {
+    0% {
+        top: -300px;
+    }
+    100% {
+        top: 10px;
+    }
+  }
+  .image5 {
+    overflow: hidden;
+    width:150px;
+    height:150px;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    transform: skewY(-10deg);
+
+  }
+
+  .column5 {
+      height: 100%;
+      width: 1%;
+      position: relative;
+      -webkit-animation: column5anim 10s infinite  normal ease-out;
+      animation: column5anim 10s infinite  normal ease-out;
+      display: inline-block;
+      animation-direction: normal;
+  }
+  @-webkit-keyframes column5anim {
+    0% {
+        top: -300px;
+    }
+    100% {
+        top: 10px;
+    }
+  }
+
+}
